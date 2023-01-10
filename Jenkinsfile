@@ -1,4 +1,4 @@
-@Library('piper-lib-os') _
+library 'piper-lib-os'
 
 node() {
   stage('init') {
