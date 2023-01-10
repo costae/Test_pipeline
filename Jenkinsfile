@@ -1,4 +1,4 @@
-@Library('piper-lib-os') _
+library 'piper-lib-os'
 piperPipeline script: this
 
 node() {
