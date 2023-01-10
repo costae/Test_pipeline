@@ -1,9 +1,0 @@
-general:
-
-steps:
-  golangBuild:
-    runTests: false
-    runIntegrationTests: false
-    createBOM: false
-    publish: false
-    output: golang-app

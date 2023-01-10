@@ -1,5 +1,0 @@
-project:
-  name: Piper library
-  tz: Europe/Berlin
-  adrFolder: ./documentation/adr
-  packages: []
