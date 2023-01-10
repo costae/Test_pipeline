@@ -1,4 +1,4 @@
-@Library('piper-lib-os') _
+@Library('Jenkins-library/piper-lib-os') _
 piperPipeline script: this
 
 node() {
