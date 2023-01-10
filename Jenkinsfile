@@ -1,5 +1,5 @@
-library 'Jenkins-library/piper-lib-os'
-piperPipeline script: this
+library 'piper-lib-os'
+
 
 node() {
   stage('init') {
