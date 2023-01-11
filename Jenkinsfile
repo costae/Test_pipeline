@@ -37,6 +37,7 @@ node() {
 		sh 'git config --global user.email "you@example.com"'
 		sh 'git config --global user.name "carlos"'
                 sh 'git commit -m "Adding the downloaded files"'
+		sh 'git branch -M P2006255217'
                 sh 'git push  --set-upstream https://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@github.com/costae/Test_pipeline.git P2006255217'
             
         }
