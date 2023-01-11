@@ -11,3 +11,11 @@ steps:
     integrationFlowName: P2006255217-flow4
     packageId: test
     filePath: P2006255217-flow4.zip
+  integrationArtifactUnDeploy:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    integrationFlowId: P2006255217-flow4
+  integrationArtifactDownload:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    integrationFlowId: P2006255217-flow4
+    downloadPath: test/P2006255217-flow4.zip
+    integrationFlowVersion: latest
