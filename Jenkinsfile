@@ -22,6 +22,7 @@ node() {
 		integrationArtifactGetMplStatus script: this
 	   	print "MPL Status:"
 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
+		sh 'rm -rf P2006255217-flow4'
 		integrationArtifactDownload script: this
 		
 	}
@@ -32,7 +33,7 @@ node() {
         }
         stage('Git push') {
             
-                sh 'git add P2006255217-flow4/P2006255217-flow4/*'
+                sh 'git add P2006255217-flow4/P2006255217-flow4'
                 sh 'git commit -m "Adding the downloaded files"'
 		sh 'git branch -M "P2006255217"'
                 sh 'git push  --set-upstream https://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@github.com/costae/Test_pipeline.git P2006255217'
