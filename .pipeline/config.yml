@@ -17,5 +17,5 @@ steps:
   integrationArtifactDownload:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
     integrationFlowId: P2006255217-flow4
-    downloadPath: test/P2006255217-flow4
+    downloadPath: P2006255217-flow4.zip
     integrationFlowVersion: 1.0.2
