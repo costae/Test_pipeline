@@ -9,5 +9,5 @@ steps:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
     integrationFlowId: P2006255217-flow4
     integrationFlowName: P2006255217-flow4
-    packageId: CICD
+    packageId: test
     filePath: P2006255217-flow4.zip
