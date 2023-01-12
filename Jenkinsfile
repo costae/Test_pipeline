@@ -37,11 +37,12 @@ node() {
 		def branch = "test-CICD"
 		def tkn = "ghp_UYl37YF3hh4Wux"
 		def tkn2 = "GtuVDSwJ8I6nnsdi2Mr00E"
+		def orgn = "https://"+tkn+tkn2+"@github.com/costae/Test_pipeline.git"
                 sh 'git add P2006255217-flow4/*'
 		sh 'git config --global user.email "you@example.com"'
 		sh 'git config --global user.name "carlos"'
                 sh 'git commit -m "Adding the downloaded files"'
-		sh 'git push "https://"+${tkn}+${tkn2}+"@github.com/costae/Test_pipeline.git" ${branch}:${branch}'
+		sh 'git push ${orgn} ${branch}:${branch}'
            
         }
 	
