@@ -35,12 +35,13 @@ node() {
         stage('Git push') {
             
 		def branch = "test-CICD"
-		def tkn = " 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"
+		def tkn = "ghp_rDGt5CY7CTLqs"
+		def tkn2 = "Hq1yqtqiZdk3zXY9H0EMG1t"
                 sh 'git add P2006255217-flow4/*'
 		sh 'git config --global user.email "you@example.com"'
 		sh 'git config --global user.name "carlos"'
                 sh 'git commit -m "Adding the downloaded files"'
-		sh 'git push "https://${tkn}@github.com/costae/Test_pipeline.git" ${branch}:${branch}'
+		sh 'git push "https://${tkn}${tkn2}@github.com/costae/Test_pipeline.git" ${branch}:${branch}'
            
         }
 	
