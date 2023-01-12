@@ -42,7 +42,7 @@ node() {
 		sh 'git config --global user.email "you@example.com"'
 		sh 'git config --global user.name "carlos"'
                 sh 'git commit -m "Adding the downloaded files"'
-		sh "git push ${orgn} ${branch}:${branch}"
+		sh "git push ${orgn} ${branch}"
            
         }
 	
