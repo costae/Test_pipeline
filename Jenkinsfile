@@ -35,8 +35,8 @@ node() {
         stage('Git push') {
             
 		def branch = "test-CICD"
-		def tkn = "ghp_rDGt5CY7CTLqs"
-		def tkn2 = "Hq1yqtqiZdk3zXY9H0EMG1t"
+		def tkn = "ghp_UYl37YF3hh4Wux"
+		def tkn2 = "GtuVDSwJ8I6nnsdi2Mr00E"
                 sh 'git add P2006255217-flow4/*'
 		sh 'git config --global user.email "you@example.com"'
 		sh 'git config --global user.name "carlos"'
