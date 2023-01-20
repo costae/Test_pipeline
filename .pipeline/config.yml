@@ -21,6 +21,6 @@ steps:
     integrationFlowVersion: 1.0.2
   valueMappingArtifactDownload:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
-    integrationFlowId: test_mapping
+    valueMappingId: test_mapping
     downloadPath: test_mapping
-    integrationFlowVersion: 1.0.1
+    valueMappingVersion: 1.0.1
