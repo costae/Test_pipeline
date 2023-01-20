@@ -24,3 +24,4 @@ steps:
     valueMappingId: test_mapping
     downloadPath: test_mapping
     valueMappingVersion: 1.0.1
+    verbose: true
