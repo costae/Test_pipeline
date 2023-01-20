@@ -10,7 +10,7 @@ node() {
     zip dir: folder, glob: '', zipFile: filePath;
   }
   stage('deployIntegrationArtifact and Get MPL Status') {
-  	 setupCommonPipelineEnvironment script: this
+//   	 setupCommonPipelineEnvironment script: this
 	   integrationArtifactUpload script: this
      integrationArtifactDeploy script: this
 	   integrationArtifactGetMplStatus script: this
