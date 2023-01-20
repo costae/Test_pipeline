@@ -23,28 +23,28 @@ node() {
 	   	print "MPL Status:"
 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
 		sh 'rm -rf P2006255217-flow4'
-		integrationArtifactDownload script: this
+		valueMappingArtifactDownload script: this
 		
 	}
-	stage('Unzip') {
+// 	stage('Unzip') {
             
-                sh 'unzip P2006255217-flow4/P2006255217-flow4.zip -d P2006255217-flow4/P2006255217-flow4'
-		sh 'rm -rf P2006255217-flow4/P2006255217-flow4.zip'
+//                 sh 'unzip P2006255217-flow4/P2006255217-flow4.zip -d P2006255217-flow4/P2006255217-flow4'
+// 		sh 'rm -rf P2006255217-flow4/P2006255217-flow4.zip'
             
-        }
-        stage('Git push') {
+//         }
+//         stage('Git push') {
             
-		def branch = "test-CICD"
-		def tkn = "ghp_UYl37YF3hh4Wux"
-		def tkn2 = "GtuVDSwJ8I6nnsdi2Mr00E"
-		def orgn = "https://"+tkn+tkn2+"@github.com/costae/Test_pipeline.git"
-                sh 'git add P2006255217-flow4/*'
-		sh 'git config --global user.email "you@example.com"'
-		sh 'git config --global user.name "carlos"'
-                sh 'git commit -m "Adding the downloaded files"'
-		sh "git branch -M ${branch}"
-		sh "git push ${orgn} ${branch}"
+// 		def branch = "test-CICD"
+// 		def tkn = "ghp_UYl37YF3hh4Wux"
+// 		def tkn2 = "GtuVDSwJ8I6nnsdi2Mr00E"
+// 		def orgn = "https://"+tkn+tkn2+"@github.com/costae/Test_pipeline.git"
+//                 sh 'git add P2006255217-flow4/*'
+// 		sh 'git config --global user.email "you@example.com"'
+// 		sh 'git config --global user.name "carlos"'
+//                 sh 'git commit -m "Adding the downloaded files"'
+// 		sh "git branch -M ${branch}"
+// 		sh "git push ${orgn} ${branch}"
            
-        }
+//         }
 	
 }
