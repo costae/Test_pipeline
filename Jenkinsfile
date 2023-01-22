@@ -24,6 +24,7 @@ node() {
 // 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
 // 		sh 'rm -rf P2006255217-flow4'
 		valueMappingArtifactDownload script: this
+		valueMappingArtifactUpload script: this
 		
 	}
 // 	stage('Unzip') {
