@@ -25,3 +25,9 @@ steps:
     downloadPath: test_mapping
     valueMappingVersion: 1.0.1
     verbose: true
+  valueMappingArtifactUpload:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    valueMappingId: test_mapping
+    valueMappingName: test_mapping
+    packageId: test2
+    filePath: test_mapping.zip
