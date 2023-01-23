@@ -22,7 +22,7 @@ node() {
 // 		integrationArtifactGetMplStatus script: this
 // 	   	print "MPL Status:"
 // 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
-// 		sh 'rm -rf P2006255217-flow4'
+		sh 'rm -rf test_mapping'
 		valueMappingArtifactDownload script: this
 		valueMappingArtifactUpload script: this
 		
