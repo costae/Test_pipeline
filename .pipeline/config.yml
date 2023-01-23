@@ -30,4 +30,4 @@ steps:
     valueMappingId: test_mapping
     valueMappingName: test_mapping
     packageId: test2
-    filePath: test_mapping/test_mapping.zip
+    filePath: test_mapping/test_mapping_1.zip
