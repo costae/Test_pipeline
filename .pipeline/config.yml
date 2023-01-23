@@ -27,7 +27,7 @@ steps:
     verbose: true
   valueMappingArtifactUpload:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
-    valueMappingId: test_mapping
-    valueMappingName: test_mapping
+    valueMappingId: test_mapping_1
+    valueMappingName: test_mapping_1
     packageId: test2
     filePath: test_mapping/test_mapping_1.zip
