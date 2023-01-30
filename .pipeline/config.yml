@@ -35,3 +35,4 @@ integrationPackageDownload:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
     integrationPackageId: test
     downloadPath: CICD
+    verbose: true
