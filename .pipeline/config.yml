@@ -31,3 +31,7 @@ steps:
     valueMappingName: test_mapping_1
     packageId: test2
     filePath: test_mapping/test_mapping_1.zip
+integrationPackageDownload:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    integrationPackageId: test
+    downloadPath: CICD
