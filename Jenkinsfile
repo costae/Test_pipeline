@@ -17,15 +17,16 @@ node() {
 // 	   print "MPL Status:"
 // 	   print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
 //   }
-	stage(' Download & Upload Value mapping Artifact'){
+	stage(' Download Integration Package Artifact'){
 // 		integrationArtifactUnDeploy script: this
 // 		integrationArtifactGetMplStatus script: this
 // 	   	print "MPL Status:"
 // 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
-		sh 'rm -rf test_mapping'
-		valueMappingArtifactDownload script: this
-		sh 'mv test_mapping/test_mapping.zip test_mapping/test_mapping_1.zip'
-		valueMappingArtifactUpload script: this
+// 		sh 'rm -rf test_mapping'
+// 		valueMappingArtifactDownload script: this
+// 		sh 'mv test_mapping/test_mapping.zip test_mapping/test_mapping_1.zip'
+// 		valueMappingArtifactUpload script: this
+		integrationPackageDownload script: this
 		
 	}
 // 	stage('Unzip') {
