@@ -23,10 +23,10 @@ node() {
 // 	   	print "MPL Status:"
 // 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
 		sh 'rm -rf test_mapping'
-		valueMappingArtifactDownload script: this
+		valueMappingDeploy script: this
 // 		sh 'mv test_mapping/test_mapping.zip test_mapping/test_mapping_1.zip'
 // 		valueMappingArtifactUpload script: this
-		integrationPackageDownload script: this
+// 		integrationPackageDownload script: this
 		
 	}
 // 	stage('Unzip') {
