@@ -38,4 +38,4 @@ integrationPackageDownload:
     verbose: true
 valueMappingDeploy:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
-    integrationFlowId: test_mapping
+    valueMappingId: test_mapping
