@@ -36,3 +36,6 @@ integrationPackageDownload:
     integrationPackageId: test
     downloadPath: CICD
     verbose: true
+valueMappingDeploy:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    integrationFlowId: test_mapping
