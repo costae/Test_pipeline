@@ -18,7 +18,7 @@ node() {
 // 	   print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
 //   }
 	stage(' Download Integration Package Artifact'){
-// 		integrationArtifactUnDeploy script: this
+		integrationArtifactDeploy script: this
 // 		integrationArtifactGetMplStatus script: this
 // 	   	print "MPL Status:"
 // 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
