@@ -9,7 +9,7 @@ steps:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
     integrationFlowId: P2006255217-flow4
     integrationFlowName: P2006255217-flow4
-    packageId: test
+    packageId: test2
     filePath: P2006255217-flow4.zip
   integrationArtifactUnDeploy:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
