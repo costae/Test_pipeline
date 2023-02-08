@@ -36,6 +36,41 @@ steps:
     integrationPackageId: test
     downloadPath: CICD
     verbose: true
+  integrationPackageUpload:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    integrationPackageId: test3
+    integrationPackageName: test3
+    filePath: CICD/test3.zip
+  messageMappingDownload:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    messageMappingId: test_mess
+    downloadPath: test_mess
+    messageMappingVersion: 1.0.1
+    verbose: true
+  messageMappingUpload:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    messageMappingId: test_mess_1
+    messageMappingName: test_mess_1
+    packageId: test2
+    filePath: test_mess/test_mess_1.zip
+  scriptCollectionDownload:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    scriptCollectionId: test_script
+    downloadPath: test_script
+    scriptCollectionVersion: 1.0.1
+    verbose: true
+  scriptCollectionUpload:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    scriptCollectionId: test_script_1
+    scriptCollectionName: test_script_1
+    packageId: test2
+    filePath: test_script/test_script_1.zip
   valueMappingDeploy:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
     valueMappingId: test_mapping
+  messageMappingDeploy:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    messageMappingId: test_mess
+  scriptCollectionDeploy:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    scriptCollectionId: test_script
