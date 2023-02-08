@@ -24,6 +24,7 @@ node() {
 // 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
 		sh 'rm -rf test_mapping'
 		sh 'rm -rf P2006255217-flow4'
+		sh 'rm -rf CICD'
 		
 // 		valueMappingArtifactDownload script: this
 		valueMappingDeploy script: this
