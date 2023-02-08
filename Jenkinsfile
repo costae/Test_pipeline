@@ -27,7 +27,7 @@ node() {
 // 		valueMappingArtifactDownload script: this
 // 		valueMappingDeploy script: this
 		integrationPackageDownload script: this
-		sh 'mv test_mapping/test_mapping.zip test_mapping/test_mapping_1.zip'
+		sh 'mv CICD/test.zip CICD/test3.zip'
 // 		valueMappingArtifactUpload script: this
 		
 		
