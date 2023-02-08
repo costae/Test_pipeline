@@ -14,6 +14,15 @@ steps:
   integrationArtifactUnDeploy:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
     integrationFlowId: P2006255217-flow4
+  valueMappingDeploy:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    valueMappingId: test_mapping
+  messageMappingDeploy:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    messageMappingId: test_mess
+  scriptCollectionDeploy:
+    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
+    scriptCollectionId: test_script
   integrationArtifactDownload:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
     integrationFlowId: P2006255217-flow4
@@ -65,12 +74,3 @@ steps:
     scriptCollectionName: test_script_1
     packageId: test2
     filePath: test_script/test_script_1.zip
-  valueMappingDeploy:
-    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
-    valueMappingId: test_mapping
-  messageMappingDeploy:
-    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
-    messageMappingId: test_mess
-  scriptCollectionDeploy:
-    cpiApiServiceKeyCredentialsId: techedServiceKeyCred
-    scriptCollectionId: test_script
