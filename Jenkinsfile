@@ -19,7 +19,7 @@ node() {
 //   }
 	stage(' deploy all'){
 		integrationArtifactDeploy script: this
-// 		integrationArtifactGetMplStatus script: this
+		integrationArtifactGetMplStatus script: this
 // 	   	print "MPL Status:"
 // 	   	print  commonPipelineEnvironment.getValue("integrationFlowMplStatus")
 		sh 'rm -rf test_mapping'
