@@ -74,5 +74,5 @@ steps:
     scriptCollectionName: test_script_1
     packageId: test2
     filePath: test_script/test_script_1.zip
- getPackageList:
+  getPackageList:
     cpiApiServiceKeyCredentialsId: techedServiceKeyCred
