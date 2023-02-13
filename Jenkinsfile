@@ -44,7 +44,7 @@ node() {
 		valueMappingArtifactDownload script: this
 		messageMappingDownload script: this
 		scriptCollectionDownload script: this
-		sh 'mv P2006255217-flow4/P2006255217-flow4.zip P2006255217-flow4/P2006255217-flow4_1.zip'
+// 		sh 'mv P2006255217-flow4/P2006255217-flow4.zip P2006255217-flow4/P2006255217-flow4_1.zip'
 		sh 'mv test_mapping/test_mapping.zip test_mapping/test_mapping_1.zip'
 		sh 'mv test_mess/test_mess.zip test_mess/test_mess_1.zip'
 		sh 'mv test_script/test_script.zip test_script/test_script_1.zip'
